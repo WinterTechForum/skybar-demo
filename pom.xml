@@ -54,7 +54,7 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.3.0.M1</version>
                 <configuration>
-                    <jvmArgs>-javaagent:../skybar/build/libs/skybar-1.0-SNAPSHOT-all.jar</jvmArgs>
+                    <jvmArgs>-Dskybar.includedPackage=com/skybar -javaagent:../skybar/build/libs/skybar-1.0-SNAPSHOT-all.jar</jvmArgs>
                 </configuration>
             </plugin>
         </plugins>
