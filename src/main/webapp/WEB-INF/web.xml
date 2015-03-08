@@ -11,4 +11,14 @@
         <servlet-name>message</servlet-name>
         <url-pattern>/message</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LongLoop</servlet-name>
+        <servlet-class>com.skybar.demo.LongLoopServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LongLoop</servlet-name>
+        <url-pattern>/loop</url-pattern>
+    </servlet-mapping>
 </web-app>
